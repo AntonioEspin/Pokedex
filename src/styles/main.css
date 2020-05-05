@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue&display=swap');
+
+body {
+    margin: 0;
+    background-color: #a5a517;
+    font-family: 'Comic Neue', cursive;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header__pokelogo img {
+    width: 200px;
+    margin-left: 50px;
+}
+
+header .header__pokebola img {
+    width: 60px;
+    margin-right: 50px;
+}
+
+main {
+    margin-top: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+main .main-data {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .main-data input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    outline: none;
+    padding-left: 20px;
+}
+
+main .main-data button {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: none;
+}
+
+main .main-image {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-image img {
+    width: 200px;
+}
+
